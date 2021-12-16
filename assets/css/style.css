@@ -1,30 +1,48 @@
+/* apply the following attributes to all html elements */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* apply the following background color to all elements with in the body tag */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* apply the following text color and decoration to all hyperlinks */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* make all text within the p tag 16px */
+p {
+    font-size: 16px;
+}
+
+/* apply the following attributes to all html elements with in the header tag */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* apply the following font-size and display to all h1 elements within the header tag */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* apply the following color to all elements with the class "seo" within the header's h1 tags */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* apply the following attributes to all elements within the header nav tag */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +50,18 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* apply the following attributes to all unordered lists in the header nav */
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* apply the following attributes to all list items in the header nav */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* apply the following attributes to all elements with the class "hero" */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +71,47 @@ p {
     background-position: center;
 }
 
+/* apply the following attributes to all elements with the class float-left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* apply the following attributes to all elements with the class float-right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* apply the following attributes to all elements within the class content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* apply the following attributes to all sections within the class content */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* apply the following max height to all images in the section tag within the class content */
+.content section img {
+    max-height: 200px;
+}
+
+/* apply the following attributes to all h2 elements in the section tag within the class content */
+.content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* apply the following attributes to all elements within the class benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,115 +123,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* apply the following attributes to all elements in the article tag within the class benefits */
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* apply the following attributes to all h3 elements in the article tag within the class benefits */
+.benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* apply the following attributes to all image elements in the article tag within the class benefits */
+.benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* apply the following attributes to all elements within the footer tag */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* apply the following attributes to all h2 elements within the footer tag */
+footer h2 {
     font-size: 20px;
 }
