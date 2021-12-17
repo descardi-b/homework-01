@@ -9,7 +9,6 @@
   here's the work i've done for the uc berkley coding bootcamp's module 1 challenge assignment. in this challenge, i was tasked with: 
 </p>
 <p>
-<br />
 🍓 consolidating redundant attributes within the css stylesheet<br />
 🍓 ensuring that all anchor links were functional<br />
 🍓 providing appropriate alt text for each image on the page.<br />
